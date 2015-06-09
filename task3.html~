@@ -18,10 +18,10 @@
 <body>
     <!-- HTML goes here -->
 <div id="box1"></div>
-<input type="button" onClick="red()" value="Make green"></input>
+<input type="button" onClick="red()" value="Make Red"></input>
 
 
-<input type="button" onClick="green()" value="Make red"></input>
+<input type="button" onClick="green()" value="Make Green"></input>
 
     <script type="text/javascript">
         //javascript code goes here at the bottom to ensure the DOM is loaded...

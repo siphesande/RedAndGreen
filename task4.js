@@ -10,6 +10,6 @@ var count=0;
             var col=document.getElementById("box1");
             col.style.backgroundColor = colors[count];
 
-            var text=document.getElementById("colorChange").firstChild;
-            text.data=text.data=="Make Green"?"Make Red":"Make Green";
+            var value=document.getElementById("colorChange").firstChild;
+            value.data=value.data=="Make Green"?"Make Red":"Make Green";
         }
