@@ -1,9 +1,18 @@
-var rg = new RedOrGreen("myElement");
+var rg = new RedOrGreen("myblock");
 
   rg.makeGreen();
     /*myElements background color should be set to red green now*/
-      window.alert("myElement background-color = green");
-
+      if(document.getElementById('myblock').style.backgroundColor ==='green'){
+             window.alert('success');
+             }
+             else{
+             window.alert('failure');
+             }
   rg.makeRed();
    /*myElements background should be set to red now*/
-      window.alert("myElement background-color = red");
+      if(document.getElementById('myblock').style.backgroundColor ==='red'){
+		window.alert('failure');
+	}
+	else{
+		window.alert('success');
+	}

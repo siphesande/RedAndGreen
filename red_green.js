@@ -1,11 +1,11 @@
-function RedOrGreen(Id) {
+function RedOrGreen(id) {
 this.makeGreen = function() {
-	document.getElementById(Id).style.backgroundColor = "Green";
+	document.getElementById(id).style.backgroundColor = "Green";
 
 }
 
 
 this.makeRed = function() {
-	document.getElementById(Id).style.backgroundColor = "Red";
+	document.getElementById(id).style.backgroundColor = "Red";
 }
 };
