@@ -8,4 +8,5 @@ this.makeGreen = function() {
 this.makeRed = function() {
 	document.getElementById(id).style.backgroundColor = "Red";
 }
+
 };

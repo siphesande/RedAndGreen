@@ -15,4 +15,5 @@ var rg = new RedOrGreen("myblock");
 	}
 	else{
 		window.alert('success');
+    
 	}
