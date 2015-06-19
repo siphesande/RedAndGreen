@@ -1,4 +1,4 @@
 
-function helloPeople(){
+function helloPeople() {
 	return("helloPeople!");
 }
