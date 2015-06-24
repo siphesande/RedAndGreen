@@ -14,14 +14,16 @@ TestMyCode.run("testing helloPeople function", function(assert) {
     assert.equals("helloPeople", result,"testing helloPeople function");
 });
 
-TestMyCode.run("testing hello_world function", function(assert) {
+TestMyCode.run("testing sphe function", function(assert) {
     var result = sphe();
     // is the result as we expected?
-    assert.equals("sphe!", result,"testing hello_world function");
+    assert.equals("sphe!", result,"testing sphe function");
+
 });
 
 
 
 
 
-results();
+
+
