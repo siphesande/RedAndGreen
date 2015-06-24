@@ -1,7 +1,5 @@
 //the function under test
 
 function sphe() {
-    return("sphe!");
+	return("sphe!");
 }
-
-
