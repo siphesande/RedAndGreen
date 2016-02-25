@@ -1,5 +1,6 @@
 //the function under test
 
-function helloPeople() {
+var helloPeople =function () {
 	return("helloPeople!");
+	console.log("cool");
 }
